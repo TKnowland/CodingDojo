@@ -1,0 +1,30 @@
+h1{
+    text-align: left;
+    color: whitesmoke;
+    background-color: black;
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.aqua {
+    color: aqua;
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    background-size: cover;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-family: cursive;
+}
+
+h3{
+    text-align: right;
+    color: rgb(38, 5, 69);
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: cursive;
+    background-color:cornflowerblue;
+}
