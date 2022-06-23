@@ -5,25 +5,31 @@
 }
 
 .col {
+    display: flex;
     background-color: rgb(105, 216, 179);
     height: 100px;
     flex: 1;
     margin: 10px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-2 {
+    display: flex;
     background-color: rgb(105, 216, 179);
     height: 100px;
     flex: 2;
     margin: 10px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .col-3 {
+    display: flex;
     background-color: rgb(105, 216, 179);
     height: 100px;
     flex: 3;
     margin: 10px;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
