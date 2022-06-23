@@ -22,26 +22,12 @@ h1 {
     justify-content: space-between;
 }
 
-.row2 {
-    align-items: center;
-    width: 860px;
-    /* height: 100px; */
+#row2 {
     background-color: firebrick;
-    margin: 30px 30px;
-    display: flex;
-    padding: 20px;
-    justify-content: space-between;
 }
 
-.row3 {
-    align-items: center;
-    width: 860px;
-    /* height: 100px; */
+#row3 {
     background-color: bisque;
-    margin: 30px 30px;
-    display: flex;
-    padding: 20px;
-    justify-content:space-between;
 }
 
 .container p{
@@ -49,9 +35,16 @@ h1 {
     font-size: 20px;
 }
 
+img {
+    height: 250px;
+}
+
 
 /* seperating line between main style and individual image styles. */
 
+img#git {
+    height: 50px;
+}
 
 img#homer {
     background-color: pink;
