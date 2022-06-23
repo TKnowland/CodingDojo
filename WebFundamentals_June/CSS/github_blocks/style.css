@@ -19,7 +19,7 @@ h1 {
     margin: 30px 30px;
     display: flex;
     padding: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .row2 {
@@ -30,7 +30,7 @@ h1 {
     margin: 30px 30px;
     display: flex;
     padding: 20px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .row3 {
@@ -41,11 +41,7 @@ h1 {
     margin: 30px 30px;
     display: flex;
     padding: 20px;
-    justify-content: space-evenly;
-}
-
-.row img {
-    padding: 5px;
+    justify-content:space-between;
 }
 
 .container p{
