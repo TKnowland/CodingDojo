@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="nav_bar">
+            <div id="nav_btns">
+                <h1>Dojonary</h1>
+                <input type="text" id="search_bar">
+                <button onclick="changeText(this)">Login</button> 
+            </div>
+
+        </div>
+        <div id="content">
+            <div id="definitions">
+                <div class="outline">
+                    <div class="def_box_left">
+                        <h1>Ninja</h1>
+                        <h2><em>noun</em></h2>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button onclick="alert('Ninja was liked.')">12 likes</button>
+                    </div>
+                    <div class="def_box_right">
+                        <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="outline">
+                    <div class="def_box_left">
+                        <h1>Ninja</h1>
+                        <h2><em>noun</em></h2>
+                        <p>Plural: <em>ninjas</em></p>
+                        <button>1 likes</button>
+                    </div>
+                    <div class="def_box_right">
+                        <p>A <a href="#">programmer</a> who breaks problems down with <a href="#">zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div id="side_bar">
+                <div id="add_def_box">
+                    <div id="add_def">
+                        <h1>Dojonary is</h1>
+                        <h1>defined by <strong>YOU</strong></h1>
+                        <button onclick="removeButton(this)">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./buttons.js"></script>
+</body>
+</html>
