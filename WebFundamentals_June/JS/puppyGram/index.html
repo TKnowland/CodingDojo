@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puppygram</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="nav_bar">
+            <h1>PuppyGram</h1>
+            <div id="search">
+                <input type="text" placeholder="Search a puppy name">
+                <button>Search!</button>
+            </div>
+            <button>Login</button>
+        </div>
+        <div id="page_content">
+            <!-- Profiles -->
+
+            <div id="left_col">
+                <!-- profile 1 -->
+                <div class="pup_profile">
+                    <div class="profile_left">
+                        <img src="./resources/puppy.jpeg" alt="Picture of puppy">
+                        <h2>Junior</h2>
+                        <em>Male</em>
+                        <p>Breed: <em>Fox</em></p>
+                        <button>10 Likes</button>
+                    </div>
+                    <div class="profile_right">
+                        <p>Junior is a very spontaneous, high energy <a href="#">fox</a> who loves to eat food.</p>
+                    </div>
+                </div>
+                <!-- profile 2 -->
+                <div class="pup_profile">
+                    <div class="profile_left">
+                        <img src="./resources/beagle.jpeg" alt="Picture of puppy">
+                        <h2>Fluffy</h2>
+                        <em>Female</em>
+                        <p>Breed: <em>Beagle</em></p>
+                        <button>10 Likes</button>
+                    </div>
+                    <div class="profile_right">
+                        <p>Fluffy is a quiet, shy, and calm <a href="#">Beagle</a> who loves to play fetch.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- end profiles -->
+            <div id="right_col">
+                <div id="upload_pup">
+                    <p>Please upload your pup info to our puppy social media!</p>
+                    <button>Upload new pup</button>
+                </div>
+                <div id="vid_of_week">
+                    <p>Our popular video of the week!</p>
+                    <video src="./resources/puppy_video.mp4" controls></video>
+                    <br>
+                    <em>This is Josie, the playful beach dog!</em>
+                </div>
+            </div>
+        </div>
+        <div id="alert">
+            <img src="./resources/caution.jpeg" alt="Caution">
+            <p>This site will track all of your information and sell it. you will get some dopamine hits from scrolling tho. Do you accept these cookies?</p>
+            <button>I accept</button>
+        </div>
+    </div>
+</body>
+</html>
