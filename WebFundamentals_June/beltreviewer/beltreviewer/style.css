@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px 380px;
+    /* padding: 0px 20px; */
+    outline: 3px solid black;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#header_l {
+    display: flex;
+    align-items: center;
+}
+
+#header_r {
+    display: flex;
+    align-items: center;
+    
+}
+
+#header button {
+    background-color: white;
+    outline: 0px;
+}
+
+#header img {
+    height: 55px;
+}
+
+#nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#nav_bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#nav_bar li {
+    margin: 0px 10px;
+    text-decoration: underline;
+}
+
+#srch_bar {
+    padding: 3px 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#nav_bar img {
+    height: 15px;
+    position: relative;
+    right: 20px;
+    top: 3px;
+}
+
+#content {
+    outline: 3px solid black;
+    padding: 2px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+#shooters {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 142, 95);
+    border-radius: 20px;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+#shooters img {
+    height: 80px;
+}
+
+#shooters p {
+    text-align: center;
+}
+
+#cont_mid {
+    display: flex;
+    margin: 20px 0px;
+}
+
+#mid_l {
+    flex: 1;
+    margin-right: 20px;
+}
+
+#mid_l div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: rgb(252, 142, 95);
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#mid_l div>img{
+    height: 20px;
+    width: 50px;
+}
+
+#mid_l img {
+    height: 140px;
+}
+
+#mid_r {
+    flex: 2;
+    display: flex;
+}
+
+#mid_r div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 142, 95);
+}
+
+#mid_r div p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#mid_r div>button {
+    margin-top: 10px;
+    background-color: blanchedalmond;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 5px 30px;
+    box-shadow: 2px 2px 1px black;
+}
+
+#TOS {
+    background-color: rgb(162, 162, 162);
+    padding: 20px;
+    /* margin: 2px; */
+    border: 1px solid black;
+}
+
+h4 {
+    text-align: center;
+}
+
+#cookieBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 20px 30px;
+    background-color: goldenrod;
+    width: 800px;
+    position: fixed;
+    bottom: 20px;
+}
+
+#cookieBox img {
+    height: 80px;
+}
+
+#cookieBox button {
+    background-color: rgb(51, 119, 245);
+    border: 2px outset rgb(99, 99, 99);
+    box-shadow: 3px 3px black;
+    padding: 10px 15px;
+    color: white;
+}
