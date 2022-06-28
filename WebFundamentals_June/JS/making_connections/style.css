@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* nav bar stylin */
+
+#nav_container {
+    background-color: rgb(32, 32, 32);
+    height: 80px;
+    color: whitesmoke;
+}
+
+#nav_bar {
+    height: 80px;
+    margin: 0px 300px 0px 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    /* outline: 1px solid blue; */
+}
+
+#nav_left {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav_btns {
+    display: flex;
+    list-style-type: none;
+    margin: 0px 30px;
+    justify-content: space-evenly;
+    width: 400px;
+    font-size: 20px;
+}
+
+#nav_btns a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#nav_right {
+    flex: 1;
+}
+
+#sign_out {
+    color: whitesmoke;
+    padding: 3px 10px;
+    background-color: rgb(67, 178, 167);
+    font-size: 18px;
+    border: 4px solid black;
+    border-radius: 10px;
+    radius
+}
+
+#profile {
+    font-size: 40px;
+}
+
+/* main body styling */
+
+#content {
+    margin: 0px 300px;
+    padding: 20px 10px;
+    display: flex;
+}
+
+.active {
+    font-weight: 600;
+}
+
+#left_col {
+    margin-right: 20px;
+    flex: 2;
+}
+
+#right_col {
+    flex: 1;
+}
+
+/* Bio styling */
+
+#bio {
+    border: 4px solid grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.banner {
+    height: 100px;
+    background-color: rgb(1, 148, 170);
+    border: 3px solid rgb(1, 148, 170);
+    margin: 1px;
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.col {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.profile {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+    background-color: whitesmoke;
+    padding: 1px;
+    border: 3px solid grey;
+    border-radius: 50%;
+}
+
+.col img {
+    margin-right: 5px;
+}
+
+/* Generic information box styling */
+
+.container {
+    border: 4px solid grey;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    color: whitesmoke;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+h4 {
+    background-color: rgb(167, 167, 167);
+    color: black;
+    padding: 2px 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.header p {
+    font-size: 20px;
+}
+.info {
+    margin-left: 20px;
+}
+
+.info p {
+    margin-bottom: 5px;
+}
+
+.user {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userName {
+    margin: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user img {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user p {
+    margin-left: 5px;
+}
+
+.confirm {
+    display: flex;
+}
+
+.confirm img{
+    height: 50px;
+}
+
+
+
