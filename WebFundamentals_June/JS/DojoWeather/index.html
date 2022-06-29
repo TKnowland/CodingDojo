@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="nav_bar">
+        <div id="nav">
+            <h1>DojoWeather</h1>
+            <ul>
+                <li onclick="alert('loading Burbank weather report...')">Burbank</li>
+                <li onclick="alert('loading Chicago weather report...')">Chicago</li>
+                <li onclick="alert('loading Dallas weather report...')">Dallas</li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="content">
+        <div id="header">
+            <h2>San Jose</h2>
+            <div>
+                <p>Show temperature in</p>
+                <select id="temp_type" onchange="convertValue(this)">
+                    <option>C</option>
+                    <option>F</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="line"></div>
+
+        <div id="forecasts">
+            <div class="forecast">
+                <h3>Today</h3>
+                <img class="weather_prediction" src="./assets/some_rain.png" alt="some rain">
+                <p class="prediction">some rain</p>
+                <div class="temps">
+                    <p value="24" class="high_temp">24</p>
+                    <p class="low_temp">18</p>
+                </div>
+            </div>
+
+            <div class="forecast">
+                <h3>Tomorrow</h3>
+                <img class="weather_prediction" src="./assets/some_sun.png" alt="some rain">
+                <p class="prediction">some sun</p>
+                <div class="temps">
+                    <p class="high_temp">27</p>
+                    <p class="low_temp">19</p>
+                </div>
+            </div>
+
+            <div class="forecast">
+                <h3>Friday</h3>
+                <img class="weather_prediction" src="./assets/some_clouds.png" alt="some rain">
+                <p class="prediction">some clouds</p>
+                <div class="temps">
+                    <p class="high_temp">21</p>
+                    <p class="low_temp">16</p>
+                </div>
+            </div>
+
+            <div class="forecast">
+                <h3>Saturday</h3>
+                <img class="weather_prediction" src="./assets/some_sun.png" alt="some rain">
+                <p class="prediction">some sun</p>
+                <div class="temps">
+                    <p class="high_temp">26</p>
+                    <p class="low_temp">21</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="cookieBox">
+            <img src="./assets/cookie.png" alt="Cookie Monster">
+            <div>
+                <h4>Stop! Cookie time</h4>
+                <p>We use cookies (sadly not edible ones) to personalize content and ads, to provide social media features and to analyze our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="removeBox(this, '#cookieBox')">I accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
