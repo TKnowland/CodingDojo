@@ -6,13 +6,22 @@ function removeBox(element, ID) {
 }
 
 function convertValue(element) {
-    var high = document.querySelector(".high_temp");
-    var low = document.querySelector(".low_temp");
+    var high = document.querySelectorAll(".high_temp");
+    var low = document.querySelectorAll(".low_temp");
     if (element.value == "F") {
-        high.innerText = parseInt(high.innerText * (9/5) + 32);
-        low.innerText = parseInt(high.innerText * (9/5) + 32);
+        for(var i = 0; i < high.length; i++) {
+            high[i].innerText = parseInt((high[i].innerText * 2) + 32);
+        }
+        for(var i = 0; i < high.length; i++) {
+            low[i].innerText = parseInt((low[i].innerText * 2) + 32);
+        }
+
     }else if (element.value == "C"){
-        high.innerText = parseInt((high.innerText - 32) * (5/9));
-        low.innerText = parseInt((high.innerText - 32) * (5/9));
+        for(var i = 0; i < high.length; i++) {
+            high[i].innerText = parseInt((high[i].innerText - 32) * .5);
+        }
+        for(var i = 0; i < high.length; i++) {
+            low[i].innerText = parseInt((low[i].innerText - 32) * .5);
+        }
     }
 }
