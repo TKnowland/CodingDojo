@@ -10,6 +10,14 @@ def hit():
     hit = input("Hit? (y/n): ")
     if hit.lower() == 'y':
         bicycle.draw_card()
+        if bicycle.total > 21:
+            print("------------")
+            print("BUST")
+            return True
+        else:
+            print("------TOTAL------")
+            print(bicycle.total)
+            return False
     elif hit.lower() == 'n':
         print("------------")
         print(f"cpu total: {bicycle.cpu_total}")
@@ -22,10 +30,14 @@ def hit():
             print("------------")
             print("TIE")
             return True
+        elif bicycle.total == 21:
+            print("------------")
+            print("WIN")
         else:
             print("------------")
             print("WIN")
             return True
+    return False
 
 
 

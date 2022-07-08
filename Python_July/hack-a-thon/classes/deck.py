@@ -13,18 +13,19 @@ class Deck:
         for s in suits:
             for i in range(1,14):
                 str_val = ""
+                if i > 10:
+                    point_val = 10
+                else:
+                    point_val = i
                 if i == 1:
                     point_val = 1
                     str_val = "Ace"
                 elif i == 11:
                     str_val = "Jack"
-                    point_val = 10
                 elif i == 12:
                     str_val = "Queen"
-                    point_val = 10
                 elif i == 13:
                     str_val = "King"
-                    point_val = 10
                 else:
                     point_val = i
                     str_val = str(i)
@@ -51,14 +52,6 @@ class Deck:
                 new_card.point_val = 100
                 new_card.card_info
         self.total += new_card.point_val
-        if self.total > 21:
-            print("BUST")
-        elif self.total == 21:
-            print("------------")
-            print("WIN")
-        else:
-            print("------TOTAL------")
-            print(self.total)
     
     def draw_cpu_card(self):
         new_card = random.choice(self.cards)
