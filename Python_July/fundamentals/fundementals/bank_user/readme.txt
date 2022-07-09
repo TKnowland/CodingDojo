@@ -1,4 +1,4 @@
-This code will ask you what account to access when depositing or withdrawing. The accounts are stored as index values.
+This code will ask you which account to access when depositing or withdrawing. The accounts are stored as index values.
 
 This means that when you answer this you must answer with the number corresponding to the index of your account within the account list.
 
