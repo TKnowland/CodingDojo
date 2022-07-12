@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+tr {
+    display: flex;
+    border-top: 1px solid black;
+}
+
+td {
+    width: 100px;
+    margin: 10px 30px;
+}
+
+#header {
+    background-color: rgb(65, 69, 73);
+    color: goldenrod;
+    font-weight: 800;
+}
