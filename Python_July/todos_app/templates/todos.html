@@ -11,7 +11,7 @@
     <ul>
         {% for todo in todos: %}
             <li>
-                Id: {{todo['id']}} Todo: {{todo['description']}} Status: {{todo['status']}}
+                Id: {{'todo.id'}} Todo: {{'todo.description'}} Status: {{'todo.status'}}
             </li>
         {% endfor %}
         <a href="/todo/form">Add a new todo</a>

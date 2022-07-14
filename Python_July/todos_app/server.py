@@ -2,7 +2,7 @@
 import re
 from flask import Flask, render_template, redirect, request  # Import Flask to allow us to create our app
 app = Flask(__name__)    # Create a new instance of the Flask class called "app"
-
+from todo import Todo
 
 
 list_of_users = [
@@ -46,6 +46,7 @@ list_of_todos = [
 
 @app.route('/todos')
 def get_todos():
+    list_of_todos = Todo.get_all()
     return render_template('todos.html', todos = list_of_todos)
 
 @app.route('/todo/form')
@@ -55,12 +56,11 @@ def display_todo_form():
 @app.route('/todo/new', methods = ['post'])
 def create_todo():
     new_todo = {
-        "id": request.form['id'],
         "description": request.form['description'],
         "status": request.form['status'],
         "user_id": request.form['user_id']
     }
-    list_of_todos.append(new_todo)
+    Todo.create(new_todo)
     return redirect('/todos')
 
 """
