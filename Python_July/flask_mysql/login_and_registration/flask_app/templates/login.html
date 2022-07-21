@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form action="/register" method="post">
+        <!-- {%with messages = get_flashed_messages()%}
+            {%if messages%}
+                {%for message in get_flashed_messages()%}
+                    <p>{{message}}</p>
+                {%endfor%}
+            {%endif%}
+        {%endwith%} -->
+        <h1>Register</h1>
+        {%for message in get_flashed_messages(category_filter=["error_first_name"])%}
+            <p>{{message}}</p>
+        {%endfor%}
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name">
+        <br>
+        {%for message in get_flashed_messages(category_filter=["error_last_name"])%}
+            <p>{{message}}</p>
+        {%endfor%}
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+        <br>
+        {%for message in get_flashed_messages(category_filter=["error_email"])%}
+            <p>{{message}}</p>
+        {%endfor%}
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <br>
+        {%for message in get_flashed_messages(category_filter=["error_password"])%}
+            <p>{{message}}</p>
+        {%endfor%}
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder="">
+        <br>
+        {%for message in get_flashed_messages(category_filter=["error_password"])%}
+            <p>{{message}}</p>
+        {%endfor%}
+        <label for="confirm_password">Confirm Password:</label>
+        <input type="password" name="confirm_password" id="confirm_password">
+        <br>
+        <button>Register</button>
+    </form>
+    
+    <form action="/login" method = 'post'>
+        <label for="log_email">Email: </label>
+        <input type="text" name="log_email" id="log_email">
+        <br>
+        <label for="log_password">Password: </label>
+        <input type="password" name="log_password" id="log_password">
+        <br>
+        <button>Login</button>
+    </form>
+</body>
+</html>
