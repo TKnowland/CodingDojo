@@ -4,5 +4,6 @@ import re
 app = Flask(__name__)
 app.secret_key = "megaballs"
 
-DATABASE = "recipes_db"
+DATABASE = "recipes"
 EMAIL_REGEX = re.compile(r'^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9._-]+\.[a-zA-Z]+$')
+
