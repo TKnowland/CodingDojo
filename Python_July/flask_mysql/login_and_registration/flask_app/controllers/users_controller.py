@@ -16,6 +16,7 @@ def register_user():
     data = {
         **request.form
     }   
+    
     if User.validate_info(data):
         pw_hash = bcrypt.generate_password_hash(request.form['password'])
         data['password'] = pw_hash

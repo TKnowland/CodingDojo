@@ -7,44 +7,44 @@
     <title>Login</title>
 </head>
 <body>
+    {%with messages = get_flashed_messages()%}
+        {%if messages%}
+            {%for message in messages%}
+                {{message}}
+            {%endfor%}
+        {%endif%}
+    {%endwith%}
     <form action="/register" method="post">
-        <!-- {%with messages = get_flashed_messages()%}
-            {%if messages%}
-                {%for message in get_flashed_messages()%}
-                    <p>{{message}}</p>
-                {%endfor%}
-            {%endif%}
-        {%endwith%} -->
         <h1>Register</h1>
-        {%for message in get_flashed_messages(category_filter=["error_first_name"])%}
-            <p>{{message}}</p>
-        {%endfor%}
         <label for="first_name">First Name:</label>
         <input type="text" name="first_name" id="first_name">
+        <!-- {%for message in get_flashed_messages(category_filter=["error_first_name"])%}
+            {{message}}
+        {%endfor%} -->
         <br>
-        {%for message in get_flashed_messages(category_filter=["error_last_name"])%}
-            <p>{{message}}</p>
-        {%endfor%}
         <label for="last_name">Last Name:</label>
         <input type="text" name="last_name" id="last_name">
+        <!-- {%for message in get_flashed_messages(category_filter=["error_last_name"])%}
+            {{message}}
+        {%endfor%} -->
         <br>
-        {%for message in get_flashed_messages(category_filter=["error_email"])%}
-            <p>{{message}}</p>
-        {%endfor%}
         <label for="email">Email:</label>
         <input type="text" name="email" id="email">
+        <!-- {%for message in get_flashed_messages(category_filter=["error_email"])%}
+            {{message}}
+        {%endfor%} -->
         <br>
-        {%for message in get_flashed_messages(category_filter=["error_password"])%}
-            <p>{{message}}</p>
-        {%endfor%}
         <label for="password">Password:</label>
         <input type="password" name="password" id="password" placeholder="">
+        <!-- {%for message in get_flashed_messages(category_filter=["error_password"])%}
+            {{message}}
+        {%endfor%} -->
         <br>
-        {%for message in get_flashed_messages(category_filter=["error_password"])%}
-            <p>{{message}}</p>
-        {%endfor%}
         <label for="confirm_password">Confirm Password:</label>
         <input type="password" name="confirm_password" id="confirm_password">
+        <!-- {%for message in get_flashed_messages(category_filter=["error_password"])%}
+            {{message}}
+        {%endfor%} -->
         <br>
         <button>Register</button>
     </form>
