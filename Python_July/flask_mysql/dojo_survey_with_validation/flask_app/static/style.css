@@ -1,0 +1,65 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: gold;
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: rgb(70, 70, 70);
+    padding: 30px;
+}
+
+.input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+button {
+    padding: 5px 8px;
+    background-color: gold;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin: 10px 0px;
+}
+
+h2 {
+    color: cornflowerblue;
+    font-size: 35px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    background-color: cornflowerblue;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+}
