@@ -52,7 +52,7 @@ def display_update_recipe(id):
     current_recipe = Recipe.get_one_with_user(data)
     return render_template("update_recipe.html", recipe = current_recipe)
 
-@app.route('/recipe/update/<int:id>')
+@app.route('/recipe/update/<int:id>', methods = ['POST'])
 def update_recipe(id):
     if Recipe.validate_recipe(request.form) == False:
         return redirect(f'/recipes/{id}/update')
