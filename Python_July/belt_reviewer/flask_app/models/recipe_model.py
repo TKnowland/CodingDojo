@@ -72,7 +72,7 @@ class Recipe:
 
     @classmethod
     def delete_one(cls, data):
-        query = "DELETE FROM recipes WHERE id = %(id)s"
+        query = "DELETE FROM recipes WHERE id = %(id)s;"
         return connectToMySQL(DATABASE).query_db(query, data)
 
     @staticmethod
