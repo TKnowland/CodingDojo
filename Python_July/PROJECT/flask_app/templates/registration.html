@@ -8,9 +8,77 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <!-- nav bar -->
     <div class="header">
-        <h1>MUsIC THING</h1>
-        <a href="/login" id="log-in">Log in</a>
+        <div id="title">
+            <h1>MUsIC THING</h1>
+            <a href="/login" class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Log in</a>
+        </div>
     </div>
+    <!-- end nav bar -->
+
+    <!-- page contents -->
+    <div id="contents">
+        
+        <!-- previews -->
+        <div id="previews">
+            <h2>Featured</h2>
+            <div class="song_preview">
+                <h3>Title</h3>
+                <div>
+                    <p>author</p>
+                    <p id="song_length">00:00</p>
+                </div>
+                <hr>
+                <audio src="" controls></audio>
+            </div>
+        </div>
+        <!-- end previews -->
+
+
+        <!-- registration -->
+        <form action="/process/registration">
+            <h2>Sign Up</h2>
+            <hr>
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" class="input">
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input type="text" name="email" id="email" class="input">
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" class="input">
+            </div>
+            <div>
+                <label for="confirm_pass">Confirm Password: </label>
+                <input type="password" name="confirm_pass" id="confirm_pass" class="input">
+            </div>
+            <div>
+                <label for="use_case">What will you use this for? (optional): </label>
+                <select name="use_case" id="use_case" class="input">
+                    <option value=""></option>
+                    <option value="tool">as a tool</option>
+                    <option value="fun">for fun</option>
+                </select>
+            </div>
+            <div id="buttons">
+                <a href="/dashboard" class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Just Browsing</a>
+                <button class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Sign Up</button>
+            </div>
+        </form>
+        <!-- end registration -->
+
+        <!-- other thing? -->
+        <div id="right_third"></div>
+        <!-- end other thing? -->
+
+    </div>
+    <!-- end page contents -->
+
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>

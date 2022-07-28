@@ -4,17 +4,110 @@
     box-sizing: border-box;
 }
 
-#log_in {
+body {
+    background-color: rgb(39, 42, 45);
+}
+
+.button {
+    position: relative;
+    background-color: slategray;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3px 10px;
+    font-size: 18px;
+    border: 4px outset rgb(87, 87, 87);
+    text-decoration: none;
+    left: 1px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+
+.box_shadow {
+    bottom: 5px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#title {
     display: flex;
-    justify-content: right;
+    width: 50%;
+    justify-content: space-between;
+}
+
+h1 {
+    text-align: center;
+    width: 240px;
+    margin: 0 -120px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
 }
 
 .header {
-    background-color: rgb(223, 53, 53);
+    border: 2px solid black;
+    background-color: rgb(221, 41, 41);
     color: white;
     padding: 20px;
     display: flex;
     align-items: center;
+    justify-content: right;
+    margin-bottom: 30px;
+}
+
+#contents {
+    display: flex;
     justify-content: center;
 }
 
+form {
+    flex: 1;
+    background-color: rgb(47, 53, 60);
+    color: whitesmoke;
+    border: 2px solid rgb(221, 41, 41);
+    border-radius: 10px;
+    padding: 15px;
+    min-width: 25%;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5vh 0;
+}
+
+.input {
+    color: whitesmoke;
+    background-color: rgb(73, 82, 92);
+    border: 2px solid rgb(103, 116, 131);
+    border-radius: 2px;
+}
+
+#previews {
+    color: whitesmoke;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.song_preview {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(47, 53, 60);
+    border: 2px solid whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 60%;
+}
+
+.song_preview > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#right_third {
+    flex: 1;
+}

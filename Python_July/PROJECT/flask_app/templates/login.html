@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App - Register</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="header">
+        <div id="title">
+            <h1>MUsIC THING</h1>
+            <a href="/login" class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Log in</a>
+        </div>
+    </div>
+    <!-- end nav bar -->
+
+    <!-- page contents -->
+    <div id="contents">
+        
+        <!-- previews -->
+        <div id="previews">
+            <h2>Featured</h2>
+            <div class="song_preview">
+                <h3>Title</h3>
+                <div>
+                    <p>author</p>
+                    <p id="song_length">00:00</p>
+                </div>
+                <hr>
+                <audio src="" controls></audio>
+            </div>
+        </div>
+        <!-- end previews -->
+
+
+        <!-- login -->
+        <form action="/process/login">
+            <h2>Log In</h2>
+            <hr>
+            <div>
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" class="input">
+            </div>
+            <div>
+                <label for="password">Password: </label>
+                <input type="password" name="password" id="password" class="input">
+            </div>
+            <div id="buttons">
+                <a href="/dashboard" class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Just Browsing</a>
+                <button class="button" onmouseover="add_shadow(this)" onmouseout="remove_shadow(this)">Log In</button>
+            </div>
+        </form>
+        <!-- end login -->
+
+        <!-- other thing? -->
+        <div id="right_third"></div>
+        <!-- end other thing? -->
+
+    </div>
+    <!-- end page contents -->
+
+    
+    <script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
