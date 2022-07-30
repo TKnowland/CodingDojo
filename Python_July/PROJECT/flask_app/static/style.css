@@ -24,8 +24,8 @@ body {
 
 
 .box_shadow {
-    bottom: 5px;
-    box-shadow: 4px 4px 4px black;
+    /* bottom: 5px;
+    box-shadow: 4px 4px 4px black; */
     background-color: rgb(146, 167, 189);
 }
 
@@ -71,6 +71,7 @@ form {
     padding: 15px;
     min-width: 25%;
 }
+
 
 form > div {
     display: flex;
