@@ -1,0 +1,15 @@
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\bin\Debug\net6.0\fundementals_i.exe
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\bin\Debug\net6.0\fundementals_i.deps.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\bin\Debug\net6.0\fundementals_i.runtimeconfig.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\bin\Debug\net6.0\fundementals_i.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\bin\Debug\net6.0\fundementals_i.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.csproj.AssemblyReference.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.AssemblyInfoInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.AssemblyInfo.cs
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.csproj.CoreCompileInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\refint\fundementals_i.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\fundementals_i.genruntimeconfig.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\fundementals_i\obj\Debug\net6.0\ref\fundementals_i.dll
