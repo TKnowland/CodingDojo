@@ -173,15 +173,7 @@ static object[] NumToString(int[] numbers)
             arrString[i] = numbers[i];
         }
     }
-
-    foreach (object item in arrString){
-        Console.WriteLine(item);
-    }
     return arrString;
-    // Write a function that takes an integer array and returns an object array 
-    // that replaces any negative number with the string 'Dojo'.
-    // For example, if array "numbers" is initially [-1, -3, 2] 
-    // your function should return an array with values ['Dojo', 'Dojo', 2].
 }
 
 int[] nums9 = {-1,-3,-2, 123};
