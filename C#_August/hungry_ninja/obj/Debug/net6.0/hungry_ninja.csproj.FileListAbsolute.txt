@@ -1,0 +1,15 @@
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.csproj.AssemblyReference.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.AssemblyInfoInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.AssemblyInfo.cs
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.csproj.CoreCompileInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\bin\Debug\net6.0\hungry_ninja.exe
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\bin\Debug\net6.0\hungry_ninja.deps.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\bin\Debug\net6.0\hungry_ninja.runtimeconfig.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\bin\Debug\net6.0\hungry_ninja.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\bin\Debug\net6.0\hungry_ninja.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\refint\hungry_ninja.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\hungry_ninja.genruntimeconfig.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\hungry_ninja\obj\Debug\net6.0\ref\hungry_ninja.dll
