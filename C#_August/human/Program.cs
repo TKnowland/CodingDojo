@@ -1,4 +1,9 @@
-﻿class Human
+﻿Human player = new Human("Bleeblop");
+Human player2 = new Human("Bloop");
+
+Console.WriteLine(player.Attack(player2));
+
+class Human
 {
     // Properties for Human
     public string Name;
