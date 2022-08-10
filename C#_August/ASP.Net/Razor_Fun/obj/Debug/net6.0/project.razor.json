@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\portfolio_1\\portfolio_1.csproj",
+  "FilePath": "c:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\Razor_Fun\\Razor_Fun.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,7 +16295,13 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "portfolio_1",
-  "Documents": [],
+  "RootNamespace": "Razor_Fun",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\Razor_Fun\\Views\\Hello\\Foods.cshtml",
+      "TargetPath": "Views\\Hello\\Foods.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

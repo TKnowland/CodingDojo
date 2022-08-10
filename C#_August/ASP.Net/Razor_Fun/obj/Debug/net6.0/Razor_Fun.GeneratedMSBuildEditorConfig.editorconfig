@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Razor_Fun
 build_property.RootNamespace = Razor_Fun
-build_property.ProjectDir = C:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ASP.Net\Razor_Fun\
+build_property.ProjectDir = c:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ASP.Net\Razor_Fun\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ASP.Net\Razor_Fun
+build_property.MSBuildProjectDirectory = c:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ASP.Net\Razor_Fun
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ASP.Net/Razor_Fun/Views/Hello/Foods.cshtml]
+[c:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ASP.Net/Razor_Fun/Views/Hello/Foods.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cRm9vZHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
