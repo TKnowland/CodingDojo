@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Balls\\.nuget\\packages\\": {}
+    "C:\\Users\\Career\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurveyValidation.csproj",
-      "projectName": "DojoSurveyValidation",
-      "projectPath": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurveyValidation.csproj",
-      "packagesPath": "C:\\Users\\Balls\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\obj\\",
+      "projectUniqueName": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
+      "projectName": "DojoSurvey",
+      "projectPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
+      "packagesPath": "C:\\Users\\Career\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Balls\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Career\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,8 +49,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -62,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
