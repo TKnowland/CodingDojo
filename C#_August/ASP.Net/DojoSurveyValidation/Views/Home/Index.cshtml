@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+    <div id="survey">
+        <form asp-controller="Home" asp-action="/process" method="post" id="data">
+            <div>
+                <label for="name">Your Name:</label>
+                <input type="text" name="name" id="name" class="input">
+            </div>
+            <div>
+                <label for="location">Dojo Location:</label>
+                <select name="location" id="location" class="input">
+                    @{
+                        List<String> Locations = new List<string>
+                            {
+                                "San Jose",
+                                "Los Angeles",
+                                "Seattle"
+                            };
+                        foreach (String location in Locations)
+                        {
+                            <option value="@location">@location</option>
+                        }
+                    }
+                </select>
+            </div>
+            <div>
+                <label for="language">Favorite Language: </label>
+                <select name="language" id="language" class="input">
+                    @{
+                        List<String> Languages = new List<string>
+                            {
+                                "C#",
+                                "Python",
+                                "Java"
+                            };
+                        foreach (String language in Languages)
+                        {
+                            <option value="@language">@language</option>
+                        }
+                    }
+                </select>
+            </div>
+            <label for="comment">Comment:</label>
+            <textarea name="comment" id="" cols="30" rows="10"></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+</div>
