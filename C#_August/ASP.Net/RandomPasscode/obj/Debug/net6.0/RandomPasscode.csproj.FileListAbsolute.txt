@@ -1,0 +1,8 @@
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.csproj.AssemblyReference.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.AssemblyInfoInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.AssemblyInfo.cs
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.csproj.CoreCompileInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.RazorAssemblyInfo.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ASP.Net\RandomPasscode\obj\Debug\net6.0\RandomPasscode.RazorAssemblyInfo.cs
