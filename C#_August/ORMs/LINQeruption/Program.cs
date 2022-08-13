@@ -16,16 +16,24 @@
 };
 // Example Query - Prints all Stratovolcano eruptions
 IEnumerable<Eruption> stratovolcanoEruptions = eruptions.Where(c => c.Type == "Stratovolcano");
+IEnumerable<Eruption> firstChileEruption = eruptions.Where(c => c.Location == "Chile");
+IEnumerable<Eruption> overTwoThousand = eruptions.Where(h => h.ElevationInMeters > 2000);
+IEnumerable<Eruption> startsWithZ = eruptions.Where(n => n.Volcano.StartsWith("Z"));
+PrintEach(overTwoThousand, "Eruptions with elevation over 2000 meters");
+PrintEach(startsWithZ, "Volanoes that start with 'Z'");
 
 // PrintEach(stratovolcanoEruptions, "Stratovolcano eruptions.");
 // Execute Assignment Tasks here!
  
 // Helper method to print each item in a List or IEnumerable.This should remain at the bottom of your class!
-// static void PrintEach(IEnumerable<dynamic> items, string msg = "")
-// {
-//     Console.WriteLine("\n" + msg);
-//     foreach (var item in items)
-//     {
-//         Console.WriteLine(item.ToString());
-//     }
-// }
+static void PrintEach(IEnumerable<dynamic> items, string msg = "")
+{
+    int count = 0;
+    Console.WriteLine("\n" + msg);
+    foreach (var item in items)
+    {
+        count+= 1;
+        Console.WriteLine(item.ToString());
+    }
+    Console.WriteLine($"Number of eruptions found: {count}");
+}
