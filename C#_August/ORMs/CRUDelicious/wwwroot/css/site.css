@@ -1,0 +1,38 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+form {
+  display: flex;
+  gap: 20px;
+}
+
+form>div {
+  display: flex;
+  flex-direction: column;
+}
+
+form>div>button {
+  margin-top: 10px;
+  width: 100px;
+}
+
+#actions {
+  display: flex;
+  justify-content: space-evenly;
+}
