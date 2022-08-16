@@ -1,0 +1,18 @@
+@using LoginAndRegistration.Models
+@model LogInUser
+
+<div class="center">
+    <form asp-action="ProcessLogin" asp-controller="Home" method="post">
+        <div>
+            <span asp-validation-for="Email"></span>
+            <label asp-for="Email">Email</label>
+            <input asp-for="Email">
+
+            <span asp-validation-for="Password"></span>
+            <label asp-for="Password">Password</label>
+            <input asp-for="Password">
+
+            <button>Log In</button>
+        </div>
+    </form>
+</div>

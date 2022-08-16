@@ -1,0 +1,33 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+form>div{
+  display: flex;
+  flex-direction: column;
+  min-width: 30em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+span {
+  color: red;
+}
