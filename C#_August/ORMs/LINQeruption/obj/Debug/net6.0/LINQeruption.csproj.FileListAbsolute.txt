@@ -1,0 +1,15 @@
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\bin\Debug\net6.0\LINQeruption.exe
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\bin\Debug\net6.0\LINQeruption.deps.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\bin\Debug\net6.0\LINQeruption.runtimeconfig.json
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\bin\Debug\net6.0\LINQeruption.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\bin\Debug\net6.0\LINQeruption.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.csproj.AssemblyReference.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.AssemblyInfoInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.AssemblyInfo.cs
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.csproj.CoreCompileInputs.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\refint\LINQeruption.dll
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.pdb
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\LINQeruption.genruntimeconfig.cache
+C:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\LINQeruption\obj\Debug\net6.0\ref\LINQeruption.dll

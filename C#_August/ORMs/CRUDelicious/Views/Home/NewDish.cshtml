@@ -1,0 +1,36 @@
+﻿<h1>Add a new Dish!</h1>
+<a href="/">Home</a>
+@using CRUDelicious.Models
+@model Dish
+<form asp-action="ProcessDish" asp-controller="Home" method="post">
+    <div>
+        <span asp-validation-for="Chef"></span>
+        <label asp-for="Chef">Chef's Name</label>
+        <input asp-for="Chef">
+
+        <span asp-validation-for="Name"></span>
+        <label asp-for="Name">Name of Dish</label>
+        <input asp-for="Name">
+
+        <span asp-validation-for="Calories"></span>
+        <label asp-for="Calories"># of Calories</label>
+        <input asp-for="Calories">
+    </div>
+    <div>
+        <span asp-validation-for="Tastiness"></span>
+        <label asp-for="Tastiness">Tastiness</label>
+        <select asp-for="Tastiness">
+            <option value=""></option>
+            @for (var i = 1; i <= 5; i++)
+            {
+                <option>@i</option>
+            }
+        </select>
+    </div>
+    <div>
+        <span asp-validation-for="Description"></span>
+        <label asp-for="Description">Description</label>
+        <textarea asp-for="Description" cols="30" rows="10"></textarea>
+        <button>Add Dish</button>
+    </div>
+</form>

@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.AspNetCore.Http
+
+<div class="text-center">
+    <p>Random Passcode #@Context.Session.GetInt32("Number")</p>
+    <h1>@Context.Session.GetString("Passcode")</h1>
+    <a asp-action="GeneratePasscode" asp-controller="Home">Generate</a>
+</div>

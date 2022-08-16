@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "QmAj33AsEjUEbmJW1kzcxv5SHCUcotTOeNAVAbMGrew=",
+  "Source": "DojoSurvey",
+  "BasePath": "_content/DojoSurvey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvey\\wwwroot",
+      "Source": "DojoSurvey",
+      "ContentRoot": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\wwwroot\\CSS\\resultStyle.css",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "CSS/resultStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\resultStyle.css"
+    },
+    {
+      "Identity": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\wwwroot\\CSS\\style.css",
+      "SourceId": "DojoSurvey",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\wwwroot\\",
+      "BasePath": "_content/DojoSurvey",
+      "RelativePath": "CSS/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\CSS\\style.css"
+    }
+  ]
+}

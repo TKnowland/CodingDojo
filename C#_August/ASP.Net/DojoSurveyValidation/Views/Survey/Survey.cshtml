@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Survey</title>
+    <link rel="stylesheet" href="~/CSS/style.css">
+</head>
+@using DojoSurveyValidation.Models
+
+<body>
+    <div id="survey">
+        @model User
+        <form asp-action="process" asp-controller="Survey" method="post" id="data">
+            <span asp-validation-for="Name"></span>
+            <div>
+                <label asp-for="Name">Your Name:</label>
+                <input asp-for="Name" class="input">
+            </div>
+            <span asp-validation-for="Location"></span>
+            <div>
+                <label asp-for="Location">Dojo Location:</label>
+                <select asp-for="Location" class="input">
+                    <option value=""></option>
+                    @{
+                        List<String> Locations = new List<string>
+                            {
+                                "San Jose",
+                                "Los Angeles",
+                                "Seattle"
+                            };
+                        foreach (String location in Locations)
+                        {
+                            <option value="@location">@location</option>
+                        }
+                    }
+                </select>
+            </div>
+            <span asp-validation-for="Language"></span>
+            <div>
+                <label asp-for="Language">Favorite Language: </label>
+                <select asp-for="Language" class="input">
+                    <option value=""></option>
+                    @{
+                        List<String> Languages = new List<string>
+                            {
+                                "C#",
+                                "Python",
+                                "Java"
+                            };
+                        foreach (String language in Languages)
+                        {
+                            <option value="@language">@language</option>
+                        }
+                    }
+                </select>
+            </div>
+            <span asp-validation-for="Comment"></span>
+            <label asp-for="Comment">Comment:</label>
+            <textarea asp-for="Comment" id="" cols="30" rows="10"></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
