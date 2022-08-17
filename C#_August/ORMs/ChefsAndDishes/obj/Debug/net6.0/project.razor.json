@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\CRUDelicious.csproj",
+  "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\ChefsAndDishes.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16295,51 +16295,56 @@
     ],
     "CSharpLanguageVersion": 1000
   },
-  "RootNamespace": "CRUDelicious",
+  "RootNamespace": "ChefsAndDishes",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Home\\NewDish.cshtml",
-      "TargetPath": "Views\\Home\\NewDish.cshtml",
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Home\\ShowDish.cshtml",
-      "TargetPath": "Views\\Home\\ShowDish.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\Home\\EditDish.cshtml",
-      "TargetPath": "Views\\Home\\EditDish.cshtml",
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Home\\Success.cshtml",
+      "TargetPath": "Views\\Home\\Success.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\CRUDelicious\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Home\\NewDish.cshtml",
+      "TargetPath": "Views\\Home\\NewDish.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Home\\CreateDishPartial.cshtml",
+      "TargetPath": "Views\\Home\\CreateDishPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Home\\NewChef.cshtml",
+      "TargetPath": "Views\\Home\\NewChef.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\ChefsAndDishes\\Views\\Home\\CreateChefPartial.cshtml",
+      "TargetPath": "Views\\Home\\CreateChefPartial.cshtml",
       "FileKind": "mvc"
     }
   ],

@@ -1,0 +1,18 @@
+@using ChefsAndDishes.Models
+@model Chef
+
+<form asp-action="ProcessChef" asp-controller="Home" method="post">
+    <span asp-validation-for="FirstName"></span>
+    <label asp-for="FirstName">First Name:</label>
+    <input asp-for="FirstName"/>
+
+    <span asp-validation-for="LastName"></span>
+    <label asp-for="LastName">Last Name:</label>
+    <input asp-for="LastName"/>
+    
+    <span asp-validation-for="DOB"></span>
+    <label asp-for="DOB">Date of Birth:</label>
+    <input asp-for="DOB" type="date">
+
+    <button>Add Chef</button>
+</form>
