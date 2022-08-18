@@ -1,0 +1,25 @@
+@using ChefsAndDishes.Models
+@model List<Chef>
+
+
+<h2>Check out our roster of Chefs!</h2>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td># of Dishes</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Chef chef in @Model)
+        {
+            <tr>
+                <td>@chef.FirstName @chef.LastName</td>
+                <td>@chef.Age(@chef.DOB)</td>
+                <td>@chef.CreatedDishes.Count</td>
+            </tr>
+        }
+    </tbody>
+</table>

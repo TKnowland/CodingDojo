@@ -5,19 +5,41 @@ namespace ChefsAndDishes.Models;
 public class Chef
 {
     [Key]
-    public int ChefId {set; get;}
+    public int ChefId {get; set;}
 
     [Required]
-    public string FirstName {set; get;}
+    public string FirstName {get; set;}
 
     [Required]
-    public string LastName {set; get;}
+    public string LastName {get; set;}
 
     [Required]
-    public DateTime DOB {set; get;}
+    [IsAdultAtrribute]
+    public DateTime DOB {get; set;}
 
-    public DateTime CreatedAt {set; get;} = DateTime.Now;
-    public DateTime UpdatedAt {set; get;} = DateTime.Now;
+    public DateTime CreatedAt {get; set;} = DateTime.Now;
+    public DateTime UpdatedAt {get; set;} = DateTime.Now;
 
     public List<Dish> CreatedDishes { get; set; } = new List<Dish>(); 
+
+    public int Age(DateTime Date)
+    {
+        int Age = DateTime.Now.Year - Date.Year;
+        return Age;
+    }
+}
+
+
+public class IsAdultAtrribute : ValidationAttribute
+{
+    protected override ValidationResult IsValid(object? value, ValidationContext validationContext)
+    {
+        DateTime date = (DateTime)value;
+        if ((DateTime.Now.Year - date.Year) < 18)
+        {
+            return new ValidationResult("Must be 18 or older");
+        }
+        return ValidationResult.Success;
+        
+    }
 }

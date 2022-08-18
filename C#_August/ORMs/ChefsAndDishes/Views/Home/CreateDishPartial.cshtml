@@ -20,15 +20,19 @@
     </select>
 
 
-    <span asp-validation-for="Chef"></span>
-    <label asp-for="Chef">Chef</label>
-    <select asp-for="Chef">
+    <span asp-validation-for="ChefId"></span>
+    <label asp-for="ChefId">Chef</label>
+    <select asp-for="ChefId">
         <option value=""></option>
         @foreach (Chef chef in @ViewBag.chefs)
         {
-            <option value="@chef.ChefId">adsadsa</option>
+            <option value="@chef.ChefId">@chef.FirstName @chef.LastName</option>
         }
     </select>
+
+    <span asp-validation-for="Description"></span>
+    <label asp-for="Description">Description:</label>
+    <textarea asp-for="Description" cols="30" rows="10"></textarea>
  
-    <button>Add Chef</button>
+    <button>Add Dish</button>
 </form>

@@ -47,7 +47,7 @@ namespace ChefsAndDishes.Migrations
                     Calories = table.Column<int>(type: "int", nullable: false),
                     Description = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    creatorChefId = table.Column<int>(type: "int", nullable: true),
+                    ChefId = table.Column<int>(type: "int", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false),
                     UpdatedAt = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },
@@ -55,17 +55,18 @@ namespace ChefsAndDishes.Migrations
                 {
                     table.PrimaryKey("PK_Dishes", x => x.DishID);
                     table.ForeignKey(
-                        name: "FK_Dishes_Chefs_creatorChefId",
-                        column: x => x.creatorChefId,
+                        name: "FK_Dishes_Chefs_ChefId",
+                        column: x => x.ChefId,
                         principalTable: "Chefs",
-                        principalColumn: "ChefId");
+                        principalColumn: "ChefId",
+                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Dishes_creatorChefId",
+                name: "IX_Dishes_ChefId",
                 table: "Dishes",
-                column: "creatorChefId");
+                column: "ChefId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)

@@ -1,0 +1,26 @@
+@using ChefsAndDishes.Models
+@model List<Dish>
+
+<h2>FOOD!!!</h2>
+<hr>
+<table>
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Chef</td>
+            <td>Tastiness</td>
+            <td>Calories</td>
+        </tr>
+    </thead>
+    <tbody class="table-striped">
+        @foreach (Dish dish in @Model)
+        {
+            <tr>
+                <td>@dish.Name</td>
+                <td>@dish.creator.FirstName @dish.creator.LastName</td>
+                <td>@dish.Tastiness</td>
+                <td>@dish.Calories</td>
+            </tr>
+        }
+    </tbody>
+</table>

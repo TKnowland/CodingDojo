@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChefsAndDishes.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20220817212800_FirstMigration")]
-    partial class FirstMigration
+    [Migration("20220818173648_SecondMigration")]
+    partial class SecondMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -58,9 +58,8 @@ namespace ChefsAndDishes.Migrations
                     b.Property<int>("Calories")
                         .HasColumnType("int");
 
-                    b.Property<string>("Chef")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                    b.Property<int>("ChefId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
@@ -79,12 +78,9 @@ namespace ChefsAndDishes.Migrations
                     b.Property<DateTime>("UpdatedAt")
                         .HasColumnType("datetime(6)");
 
-                    b.Property<int?>("creatorChefId")
-                        .HasColumnType("int");
-
                     b.HasKey("DishID");
 
-                    b.HasIndex("creatorChefId");
+                    b.HasIndex("ChefId");
 
                     b.ToTable("Dishes");
                 });
@@ -93,7 +89,9 @@ namespace ChefsAndDishes.Migrations
                 {
                     b.HasOne("ChefsAndDishes.Models.Chef", "creator")
                         .WithMany("CreatedDishes")
-                        .HasForeignKey("creatorChefId");
+                        .HasForeignKey("ChefId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
 
                     b.Navigation("creator");
                 });

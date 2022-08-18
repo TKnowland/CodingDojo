@@ -3,6 +3,7 @@ using System;
 using ChefsAndDishes.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ChefsAndDishes.Migrations
 {
     [DbContext(typeof(MyContext))]
-    partial class MyContextModelSnapshot : ModelSnapshot
+    [Migration("20220818165434_FirstMigration")]
+    partial class FirstMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -55,6 +57,10 @@ namespace ChefsAndDishes.Migrations
 
                     b.Property<int>("Calories")
                         .HasColumnType("int");
+
+                    b.Property<string>("Chef")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<int>("ChefId")
                         .HasColumnType("int");
