@@ -1,0 +1,28 @@
+@using ProductsAndCategories.Models
+
+
+<h1 class="text-center">@ViewBag.CurrentProduct.Name</h1>
+
+<div class="content">
+    <div class="left">
+        <h2 class="text-center">Categories</h2>
+        @foreach (var a in @ViewBag.CurrentProduct.Categories)
+        {
+            <p> - @a.Category.Name</p>
+        }
+    </div>
+    <div class="right">
+        <h2 class="text-center">Add Category:</h3>
+        @model Association
+        <form asp-action="AddCategory" asp-route-ProductId="@ViewBag.CurrentProduct.ProductId" asp-route-NewAssociation="@Model" asp-controller="Home" method="post">
+            <select asp-for="CategoryId">
+                <option value=""></option>
+                @foreach (var category in ViewBag.Categories)
+                {
+                    <option value="@category.CategoryId">@category.Name</option>
+                }
+            </select>
+            <button>Add</button>
+        </form>
+    </div>
+</div>
