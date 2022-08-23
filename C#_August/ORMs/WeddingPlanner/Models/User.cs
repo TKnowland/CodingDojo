@@ -9,21 +9,21 @@ public class User
     [Key]
     public int UserId {get; set;}
 
-    [Required]
+    [Required(ErrorMessage = "is required.")]
     [MinLength(2)]
     public string FirstName {get; set;}
 
-    [Required]
+    [Required(ErrorMessage = "is required.")]
     [MinLength(2)]
     public string LastName {get; set;}
 
     [DataType(DataType.EmailAddress)]
-    [Required]
+    [Required(ErrorMessage = "is required.")]
     [EmailAddress]
     public string Email {get; set;}
 
     [DataType(DataType.Password)]
-    [Required]
+    [Required(ErrorMessage = "is required.")]
     [MinLength(8, ErrorMessage="Password must be 8 characters or longer!")]
     public string Password {get; set;}
 
@@ -35,5 +35,6 @@ public class User
     [DataType(DataType.Password)]
     public string Confirm { get; set; }
 
-    public List<Association> Weddings {get; set;} = new List<Association>();
+    public List<Wedding> CreatedWeddings {get; set;} = new List<Wedding>();
+    public List<UserWeddingParticipation> UserWeddings {get; set;} = new List<UserWeddingParticipation>();
 }
