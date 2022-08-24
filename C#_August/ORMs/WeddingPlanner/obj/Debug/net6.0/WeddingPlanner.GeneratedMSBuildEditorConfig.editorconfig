@@ -8,53 +8,69 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WeddingPlanner
 build_property.RootNamespace = WeddingPlanner
-build_property.ProjectDir = c:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\WeddingPlanner\
+build_property.ProjectDir = C:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ORMs\WeddingPlanner\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Career\Documents\CodingDojo-2\C#_August\ORMs\WeddingPlanner
+build_property.MSBuildProjectDirectory = C:\Users\Balls\Documents\vs code\CodingDojo\C#_August\ORMs\WeddingPlanner
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Home/Index.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Home/Privacy.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Shared/Error.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Users/Login.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Users/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Users/LoginPartial.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Users/LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcTG9naW5QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Users/RegisterUserPartial.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Users/RegisterUserPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcUmVnaXN0ZXJVc2VyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Users/Success.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Users/Success.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlcnNcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/_ViewImports.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Weddings/CreateWeddingPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcQ3JlYXRlV2VkZGluZ1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Weddings/NewWedding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcTmV3V2VkZGluZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Weddings/ShowWedding.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcU2hvd1dlZGRpbmcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Weddings/ShowWeddings.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV2VkZGluZ3NcU2hvd1dlZGRpbmdzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/_ViewStart.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Career/Documents/CodingDojo-2/C\#_August/ORMs/WeddingPlanner/Views/Shared/_Layout.cshtml]
+[C:/Users/Balls/Documents/vs code/CodingDojo/C\#_August/ORMs/WeddingPlanner/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-l8pyi8tiun

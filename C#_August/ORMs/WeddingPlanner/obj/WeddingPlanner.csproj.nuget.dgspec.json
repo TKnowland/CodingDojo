@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj": {}
+    "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj": {
+    "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj",
+        "projectUniqueName": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj",
         "projectName": "WeddingPlanner",
-        "projectPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj",
-        "packagesPath": "C:\\Users\\Career\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ORMs\\WeddingPlanner\\obj\\",
+        "projectPath": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ORMs\\WeddingPlanner\\WeddingPlanner.csproj",
+        "packagesPath": "C:\\Users\\Balls\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Balls\\Documents\\vs code\\CodingDojo\\C#_August\\ORMs\\WeddingPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Career\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Balls\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -59,7 +59,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -71,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

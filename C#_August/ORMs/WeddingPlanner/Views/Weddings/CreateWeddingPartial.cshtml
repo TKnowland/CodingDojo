@@ -1,0 +1,26 @@
+@using Microsoft.AspNetCore.Http
+@using WeddingPlanner.Models
+@model Wedding
+
+<form asp-action="ProcessNewWedding" asp-controller="Weddings" asp-route-UserId='@Context.Session.GetInt32("CurrentUser")' method="post">
+    <div>
+        <span asp-validation-for="WedderOne"></span>
+        <Label asp-for="WedderOne">Wedder One</Label>
+        <input asp-for="WedderOne"/>
+
+        <span asp-validation-for="WedderTwo"></span>
+        <Label asp-for="WedderTwo">Wedder Two</Label>
+        <input asp-for="WedderTwo"/>
+
+        <span asp-validation-for="Date"></span>
+        <Label asp-for="Date">Date</Label>
+        <input asp-for="Date"/>
+
+        <span asp-validation-for="WeddingAddress"></span>
+        <Label asp-for="WeddingAddress">Address</Label>
+        <input asp-for="WeddingAddress"/>
+    </div>
+    
+
+    <button>Create</button>
+</form>

@@ -1,0 +1,51 @@
+@using WeddingPlanner.Models
+@using Microsoft.AspNetCore.Http
+@model List<Wedding>
+    
+
+<h1>Welcome to the Wedding Planner</h1>
+<table>
+    <thead>
+        <tr>
+            <td>Wedding</td>
+            <td>Date</td>
+            <td>Guest Count</td>
+            <td>Action</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Wedding in Model)
+        {
+            <tr>
+                <td><a asp-action="ShowWedding" asp-controller="Weddings" asp-route-WeddingId="@Wedding.WeddingId">@Wedding.WedderOne & @Wedding.WedderTwo</a></td>
+                <td>@Wedding.Date.ToLongDateString()</td>
+                <td>@Wedding.WeddingParticpants.Count</td>
+                <td>
+                    @if (Wedding.WeddingCreator.UserId == Context.Session.GetInt32("CurrentUser"))
+                    {
+                        <a asp-action="DeleteWedding" asp-controller="Weddings" asp-route-WeddingId="@Wedding.WeddingId">Delete</a>
+                    }
+                    else
+                    {
+                        bool alreadyJoined = Wedding.WeddingParticpants.Any(participant => participant.UserId == Context.Session.GetInt32("CurrentUser"));
+
+                        <form asp-controller="Weddings" asp-action="Participate" asp-route-WeddingId="@Wedding.WeddingId" method="post">
+                            <button>
+                                @if (alreadyJoined)
+                                {
+                                    <span>Leave</span>
+                                }
+                                else
+                                {
+                                    <span>Join</span>
+                                }
+                            </button>
+                        </form>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="Wedding/New">New Wedding</a>

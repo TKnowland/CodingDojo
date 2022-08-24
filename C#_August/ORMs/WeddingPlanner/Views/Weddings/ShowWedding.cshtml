@@ -1,0 +1,14 @@
+@using WeddingPlanner.Models
+@model Wedding
+
+<h1>@Model.WedderOne and @Model.WedderTwo's Wedding</h1>
+<div>
+    <h2>Date: @Model.Date.ToLongDateString()</h2>
+    <h2>Guests:</h2>
+    <ul>
+        @foreach (var user in @Model.WeddingParticpants)
+        {
+            <li>@user.Participant.FirstName @user.Participant.LastName</li>
+        }
+    </ul>
+</div>

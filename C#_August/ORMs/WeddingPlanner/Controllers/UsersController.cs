@@ -19,6 +19,7 @@ public class UsersController : Controller
     [HttpGet("Login")]
     public IActionResult Login()
     {
+        HttpContext.Session.Remove("CurrentUser");
         return View("Login");
     }
 
@@ -30,13 +31,38 @@ public class UsersController : Controller
             if(_context.Users.Any(u => u.Email == newUser.Email))
             {
                 ModelState.AddModelError("Email", "Email already in use!");
-                return Success();
+                return Login();
             }
             PasswordHasher<User> Hasher = new PasswordHasher<User>();
             newUser.Password = Hasher.HashPassword(newUser, newUser.Password);
             _context.Add(newUser);
             _context.SaveChanges();
-            HttpContext.Session.SetString("CurrentUser", newUser.Email);
+            HttpContext.Session.SetInt32("CurrentUser", newUser.UserId);
+            return RedirectToAction("ShowWeddings", "Weddings");
+        }
+        return Login();
+    }
+
+    [HttpPost("ProcessLogin")]
+    public IActionResult ProcessLogin(LogInUser user)
+    {
+        if(ModelState.IsValid)
+        {
+            var currentUser = _context.Users.SingleOrDefault(u => u.Email == user.Email);
+            if(currentUser == null)
+            {
+                ModelState.AddModelError("Email", "Invalid Email/Password");
+                return Login();
+            }
+            var hasher = new PasswordHasher<LogInUser>();
+            var result = hasher.VerifyHashedPassword(user, currentUser.Password, user.Password);
+            if (result == 0)
+            {
+                ModelState.AddModelError("Password", "Invalid Email/Password");
+                return Login();
+            }
+            HttpContext.Session.SetInt32("CurrentUser", currentUser.UserId);
+            return RedirectToAction("ShowWeddings", "Weddings");
         }
         return Login();
     }
@@ -47,12 +73,5 @@ public class UsersController : Controller
     public IActionResult Success()
     {
         return View("Success");
-    }
-
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }

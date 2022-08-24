@@ -31,8 +31,32 @@ form>div {
   max-width: 400px;
 }
 
-button {
+/* button {
   max-width: 50%;
   margin: 5px 0;
 
+} */
+
+table {
+  border-collapse: collapse;
+  min-width: 400px;
+  font-size: 20px;
+  box-shadow: 2px 2px black;
+  margin-top: 80px;
+  text-align: left;
+}
+
+thead tr {
+  background-color: lightgray;
+  height: 10px;
+}
+
+tr {
+  background-color: whitesmoke;
+  border-bottom: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  outline: 1px solid black;
 }
