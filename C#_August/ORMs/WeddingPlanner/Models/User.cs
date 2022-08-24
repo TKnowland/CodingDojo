@@ -9,21 +9,21 @@ public class User
     [Key]
     public int UserId {get; set;}
 
-    [Required(ErrorMessage = "is required.")]
+    [Required(ErrorMessage = "First name is required.")]
     [MinLength(2)]
     public string FirstName {get; set;}
 
-    [Required(ErrorMessage = "is required.")]
+    [Required(ErrorMessage = "Last name is required.")]
     [MinLength(2)]
     public string LastName {get; set;}
 
     [DataType(DataType.EmailAddress)]
-    [Required(ErrorMessage = "is required.")]
+    [Required(ErrorMessage = "Email is required.")]
     [EmailAddress]
     public string Email {get; set;}
 
     [DataType(DataType.Password)]
-    [Required(ErrorMessage = "is required.")]
+    [Required(ErrorMessage = "Password is required.")]
     [MinLength(8, ErrorMessage="Password must be 8 characters or longer!")]
     public string Password {get; set;}
 
