@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj": {}
+    "C:\\Users\\Career\\Documents\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj": {
+    "C:\\Users\\Career\\Documents\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
+        "projectUniqueName": "C:\\Users\\Career\\Documents\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
         "projectName": "DojoSurvey",
-        "projectPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
+        "projectPath": "C:\\Users\\Career\\Documents\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\DojoSurvey.csproj",
         "packagesPath": "C:\\Users\\Career\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Career\\Documents\\CodingDojo-2\\C#_August\\ASP.Net\\DojoSurveyValidation\\obj\\",
+        "outputPath": "C:\\Users\\Career\\Documents\\CodingDojo\\C#_August\\ASP.Net\\DojoSurveyValidation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Career\\AppData\\Roaming\\NuGet\\NuGet.Config"
