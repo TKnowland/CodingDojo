@@ -33,4 +33,3 @@ const namesAbove99 = pokémon.filter(p => p.id > 99).map(p => p.name)
 const poisonNames = pokémon.filter(p => p.types.length === 1 && p.types.includes("poison")).map(p => p.name)
 const flyingPrimaryType = pokémon.filter(p => p.types.length > 1 && p.types[1] === "flying").map(p => p.types[0])
 const normalCount = pokémon.filter(p => p.types.includes("normal")).length
-console.log(normalCount)
