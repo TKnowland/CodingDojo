@@ -1,0 +1,8 @@
+.main {
+    background-color: #e06666;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    margin-left: 2rem;
+    padding: 2rem;
+}
