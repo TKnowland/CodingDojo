@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    margin: 0 40%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.formItem {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: #F6F6F6;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    height: 3rem;
+    padding-bottom: .7rem;
+}
+
+label {
+    text-align: center;
+    width: 30%;
+}
+
+input {
+    height: 1.5rem;
+}
+
+.error {
+    color: red;
+}
