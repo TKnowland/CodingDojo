@@ -8,17 +8,6 @@ const UserForm = props => {
     const [password, setPassword] = useState("");
     const [confirmPass, setConfirmPass] = useState("");
 
-
-    // const createUser = e => {
-    //     e.preventDefault();
-    //     const newUser = {firstName, lastName, email, password};
-    //     setFirstName("");
-    //     setLastName("");
-    //     setEmail("");
-    //     setPassword("");
-    //     setConfirmPass("");
-    // }
-
     return (
         <div className = {styles.container}>
             <form>
