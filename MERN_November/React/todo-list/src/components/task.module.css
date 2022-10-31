@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.listItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1rem;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.delete {
+    color: white;
+    background-color: black;
+    width: 5rem;
+    height: 1.5rem;
+    border-radius: .2rem;
+}
+
+.add {
+    color: white;
+    background-color: blue;
+    padding: .5rem 1rem;
+    border: 0px;
+    border-radius: .2rem;
+}
+
+input {
+    padding: .5rem .5rem;
+    margin-right: .5rem;
+    border: 0;
+    background-color: rgb(230, 230, 230);
+    border-radius: .2rem;
+}
