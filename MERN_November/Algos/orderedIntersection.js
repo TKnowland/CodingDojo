@@ -31,7 +31,7 @@ function orderedIntersection(arr1, arr2) {
     let j = 0;
     //2. instantiate return value
     let newArr = [];
-    //3. loop through both arrays, checking for and pushing matching values, incrementing otherwise
+    //3. loop through both arrays until reaching the length of one, checking for and pushing matching values, incrementing otherwise
     while(i < arr1.length && j < arr2.length) {
         if(arr1[i] < arr2[j]){
             i++
