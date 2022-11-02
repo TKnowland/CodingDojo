@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 1rem;
+}
+
+.search {
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+.field {
+    border: 0;
+    background-color: rgb(234, 234, 234);
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+}
+
+input {
+    width: 5rem;
+}
