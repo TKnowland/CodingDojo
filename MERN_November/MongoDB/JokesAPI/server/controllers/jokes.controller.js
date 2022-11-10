@@ -8,19 +8,25 @@ module.exports.findAllJokes = (req, res) => {
 
 module.exports.findOneSingleJoke = (req, res) => {
 	Jokes.findOne({ _id: req.params._id })
-		.then(oneSingleJoke => res.json({ joke: oneSingleJoke }))
+		.then(oneSingleJoke => res.json({ jokes: oneSingleJoke }))
 		.catch(err => res.json({ message: "Something went wrong", error: err }));
+};
+
+module.exports.findRandomJoke = (req, res) => {
+  Jokes.find()
+    .then(allDaJokes => res.json({ jokes: allDaJokes[Math.floor((Math.random() * allDaJokes.length))] }))
+    .catch(err => res.json({ message: "Something went wrong", error: err }));
 };
 
 module.exports.createNewJoke = (req, res) => {
   Jokes.create(req.body)
-    .then(newlyCreatedJoke => res.json({ joke: newlyCreatedJoke }))
+    .then(newlyCreatedJoke => res.json({ jokes: newlyCreatedJoke }))
     .catch(err => res.json({ message: "Something went wrong", error: err }));
 };
 
 module.exports.updateExistingJoke = (req, res) => {
   Jokes.findOneAndUpdate({ _id: req.params._id }, req.body, { new: true, runValidators: true })
-    .then(updatedJoke => res.json({ joke: updatedJoke }))
+    .then(updatedJoke => res.json({ jokes: updatedJoke }))
     .catch(err => res.json({ message: "Something went wrong", error: err }));
 };
 
