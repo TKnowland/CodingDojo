@@ -31,6 +31,7 @@ export default () => {
                     </fieldset>
                     <p>All art was made in <a href="https://www.aseprite.org/">Aseprite</a></p>
                     <p>Programming and development is done in the <a href="https://godotengine.org/">Godot Engine</a></p>
+                    <p>Current sound effects were made using <a href="https://sfbgames.itch.io/chiptone">CHIPTONE</a></p>
                 </fieldset>
             </div>
         </div>
