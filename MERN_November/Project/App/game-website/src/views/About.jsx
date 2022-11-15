@@ -2,6 +2,6 @@ import React from 'react'
 
 export default () => {
   return (
-    <div>Slideshow</div>
+    <div>About</div>
   )
 }
