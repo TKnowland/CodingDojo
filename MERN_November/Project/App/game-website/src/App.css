@@ -7,6 +7,11 @@ a {
   color: rgb(86, 213, 54);
 }
 
+div::selection {
+  color: none;
+  background: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
