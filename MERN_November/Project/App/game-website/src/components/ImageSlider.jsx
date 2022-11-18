@@ -16,7 +16,8 @@ export default (props) => {
     borderRadius: '10px',
     backgroundPosition: 'center',
     backgroundSize: 'cover',
-    backgroundImage: `url(${slides[currentIdx].url})`
+    backgroundImage: `url(${slides[currentIdx].url})`,
+    boxShadow: 'inset 0 0 1rem 1rem #051F39'
   }
 
   const leftArrowStyle = {

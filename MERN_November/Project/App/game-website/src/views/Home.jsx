@@ -26,8 +26,8 @@ export default () => {
                     <h1>Overview</h1>
                     <p>This game is an indie project from a two person team:</p>
                     <fieldset style={{width: '25rem', padding: '0', margin: '0 auto'}}>
-                        <p>Sergey Martinez: story/concept</p>
-                        <p>Tre Knowland: art/assets/programming/website</p>
+                        <p><strong>Sergey Martinez:</strong> story/concept</p>
+                        <p><strong>Tre Knowland:</strong> art/assets/programming/website</p>
                     </fieldset>
                     <p>All art was made in <a href="https://www.aseprite.org/">Aseprite</a></p>
                     <p>Programming and development is done in the <a href="https://godotengine.org/">Godot Engine</a></p>
